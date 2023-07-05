@@ -1,3 +1,82 @@
-a {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
 }
+
+.caixa {
+    padding: 25px; /* ESPAÇAMENTO INTERNO */
+}
+
+.logo {
+    width: 180px; /* LARGURA */
+}
+
+
+.link-empresa {
+    color: red;
+    margin-left: 30px; /* margem do lado esq */
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.link-voce {
+    color: red;
+    margin-left: 30px; /* margem do lado esq */
+    font-size: 20px; /* tamanho da fonte */
+    font-weight: 700; /* peso da fonte */
+    cursor: pointer; /* troca o cursor do mouse */ 
+    
+}
+
+.link-voce:hover {
+    text-decoration: underline;
+
+}
+
+.link-empresa:hover {
+    text-decoration: underline;
+}
+
+.background {
+    width: 100%;
+}
+
+h2 {
+    margin-left: 30px; /* margem do lado esquerdo */
+    margin-top: 60px; /* margem do lado direito */
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+li {
+    height: 170px; /* altura do elemento */
+    width:  180px; /* largura do elemento */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 60px;
+    display: inline-block;
+}
+
+.imagem-produtos {
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* bloquear e centralizar */
+}
+
+p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
