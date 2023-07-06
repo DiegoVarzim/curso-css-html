@@ -42,17 +42,19 @@
 }
 
 h2 {
-    margin-left: 30px; /* margem do lado esquerdo */
+    margin-left: 80px; /* margem do lado esquerdo */
     margin-top: 60px; /* margem do lado direito */
     margin-bottom: 50px;
-    font-size: 32px;
+    font-size: 2rem;
+    font-weight: 400;
+    
 }
 
 
 ul {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     margin-top: 50px;
     margin-left: 30px;
     margin-right: 30px;
@@ -60,10 +62,10 @@ ul {
 
 
 li {
-    height: 170px; /* altura do elemento */
-    width:  180px; /* largura do elemento */
+    height: 150px; /* altura do elemento */
+    width:  150px; /* largura do elemento */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding-top: 60px;
+    padding-top: 30px;
     display: inline-block;
 }
 
